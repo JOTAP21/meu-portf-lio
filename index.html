@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfólio</title>
+
+    <style>
+        body{
+            background-color: black;
+            color: white;
+        }
+        header{
+            position: sticky;
+            background-color: rgb(30, 68, 3);
+            top: 5px;
+            border: 2px solid white;
+            border-radius: 10px;
+        }
+        main{
+            border: 2px solid white;
+            border-radius: 10px;
+            margin-top: 20px;
+        }
+        h1{
+            margin-top: 20px;
+            margin-left: 20px;
+            color: rgb(0, 255, 0);
+            font-weight: bold;
+        }
+        .entre-em-contato{
+            display: flex;
+            justify-content: end;
+            list-style-type: none;
+        }
+        .entre-em-contato .contato{
+            margin-left: 5px;
+            margin-right: 15px;
+            border: 2px solid rgb(0, 255, 0);
+            border-radius: 5px;
+            background-color: rgb(14, 122, 14);
+            padding: 3px 5px 3px 5px;
+        }
+        li:hover{
+            background-color: rgb(7, 54, 7);
+        }
+        a{
+            color: white;
+            text-decoration: none;
+        }
+        a:hover{
+            text-decoration: underline;
+        }
+        .sobre{
+            height: 250px;
+        }
+        .sobre-mim{
+            margin-left: 20px;
+            color: rgb(0, 255, 0);
+            text-shadow: 2px 1px 2px white;
+        }
+        .sobre-mim-resumo{
+            width: 50%;
+            height: 150px;
+            padding: 5px;
+            letter-spacing: 1px;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-left: 10px;
+            box-sizing: border-box;
+            border: 2px solid white;
+            border-radius: 5px;
+        }
+        img{
+            display: inline;
+            float: right;
+            margin-right: 70px;
+            margin-top: -170px;
+            border: 2px solid white;
+        }
+        .tudo-sobre-mim{
+            border: 2px solid white;
+            margin-top: 20px;
+            height: 310px;
+            border-radius: 10px;
+        }
+        .sobre-mim-main{
+            margin-left: 20px;
+            color: rgb(0, 255, 0);
+            text-shadow: 2px 1px 2px white;
+            text-align: center;
+        }
+        .paragrafo{
+            text-align: center;
+            padding: 15px;
+            letter-spacing: 1px;
+            font-family: sans-serif;
+        }
+        footer{
+            height: 300px;
+            border: 2px solid white;
+            margin-top: 20px;
+            border-radius: 10px;
+
+        }
+        .texto-footer{
+            text-align: center;
+        }
+        .downloads{
+            display: flex;
+            justify-content: center;
+        }
+        .links-dev1{
+            border: 2px solid rgb(0, 255, 0);
+            text-align: center;
+            list-style: none;
+            border-radius: 7px;
+            margin-bottom: 10px;
+            padding: 5px 10px 5px 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu Portfólio</h1>
+        <ul class="entre-em-contato">
+            <li class="contato"><a href="#">Youtube</a></li>
+            <li class="contato"><a href="#">Linkedin</a></li>
+            <li class="contato"><a href="#">Whatsapp</a></li>
+            <li class="contato"><a href="https://github.com/JOTAP21" target="_blank">Github</a></li>
+        </ul>
+    </header>
+    <main>
+        <section class="sobre">
+            <h2 class="sobre-mim">Sobre Mim (Resumo)</h2>
+            <p class="sobre-mim-resumo">Me chamo João Paulo, atualmente sou um dev júnior e trabalho no desenvolvimento web com html , Css e Javascript, mas pretendo expandir para novos rumos e linguagens.</p>
+            <img src="#" width="150px" height="150px" alt="imagem-perfil">
+        </section>
+    </main>
+    <div class="tudo-sobre-mim">
+        <section>
+            <h2 class="sobre-mim-main">Sobre mim</h2>
+        </section>
+        <section>
+            <p class="paragrafo">
+                Me chamo João Paulo, apaixonado por tecnologia e em constante aprendizado na área de programação. Comecei minha jornada no mundo da programação há pouco menos de 1 ano e tenho me dedicado a explorar novas linguagens e frameworks.
+                Apesar de estar no início da minha carreira, já desenvolvi alguns projetos pessoais, como portfolios, algumas paginas web, nos quais tive a oportunidade de aplicar meus conhecimentos em Html e Css.
+                Sou uma pessoa proativa, com boa capacidade de aprendizado e trabalho em equipe. Acredito que a programação é mais que apenas escrever código, é a arte de resolver problemas e criar soluções inovadoras.
+                Estou sempre buscando novos desafios e oportunidades para me desenvolver como programador.
+            </p>
+        </section>
+    </div>
+    <footer>
+        <h1 class="texto-footer">Meus Projetos</h1>
+        <div class="downloads">
+            <ul class="links-dev">
+                <li class="links-dev1"><a href="https://jotap21.github.io/Login/" target="_blank">Pagina de login</a></li>
+                <li class="links-dev1"><a href="https://jotap21.github.io/formulario/" target="_blank">Formulário</a></li>
+                <li class="links-dev1"><a href="https://jotap21.github.io/sobre-mim/" target="_blank">Sobre Mim</a></li>
+                <li class="links-dev1"><a href="https://jotap21.github.io/meu-site/" target="_blank">Site Canal Youtube Games</a></li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>
